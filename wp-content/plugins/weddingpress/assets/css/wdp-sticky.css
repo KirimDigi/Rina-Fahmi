@@ -1,0 +1,74 @@
+/* 
+ * WeddingPress Sticky CSS
+ * Digunakan oleh wdp-sticky.js
+ */
+
+.wdp-is-sticky {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    transition: top 0.2s ease, bottom 0.2s ease;
+    will-change: top, bottom;
+    box-sizing: border-box !important;
+}
+
+/* iOS Safe Area Integration */
+.wdp-is-sticky[data-position="bottom"][data-safe-area="true"] {
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+}
+
+/* Sembunyikan sticky jika Cover Undangan masih tertutup (wdp-cover-active) */
+body.wdp-cover-active .wdp-is-sticky[data-hide-cover="true"],
+body.elementor-editor-active.wdp-cover-active .wdp-is-sticky[data-hide-cover="true"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Spacer untuk mencegah layout melompat saat elemen fix */
+.wdp-sticky-spacer {
+    display: block !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+}
+
+/* Badge di Elementor Editor */
+.wdp-sticky-badge {
+    position: fixed;
+    z-index: 999999;
+    background: #ff0055;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    opacity: 0.9;
+}
+
+.wdp-sticky-badge--top {
+    transform: translateY(-100%);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.wdp-sticky-badge--bottom {
+    transform: translateY(100%);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

@@ -1,0 +1,528 @@
+Uri: https://bemybeyonce.id/catalina/
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\catalina\index.htm
+Content Type: text/html
+
+Uri: https://bemybeyonce.id/comments/feed/
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://bemybeyonce.id/feed/
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\css\conditionals\transitions.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\css\modules\sticky.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/css/widget-countdown.min.css?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\css\widget-countdown.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\css\widget-form.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\css\widget-gallery.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\js\elements-handlers.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\js\webpack-pro.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.2.2
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor-pro\assets\lib\sticky\jquery.sticky.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\conditionals\e-swiper.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-heading.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-icon-list.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-image-carousel.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-image.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-spacer.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\css\widget-video.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\animations\styles\e-animation-shrink.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInUp.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\e-gallery\css\e-gallery.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\e-gallery\js\e-gallery.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\swiper\v8\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\elementor\assets\lib\swiper\v8\swiper.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1.7.9
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\page-scroll-to-id\js\page-scroll-to-id.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/table-addons-for-elementor/public/css/table-addons-for-elementor-public.css?ver=2.1.6
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\table-addons-for-elementor\public\css\table-addons-for-elementor-public.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingkit-pro/public/css/modules/bdt-uikit.css?ver=3.15.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingkit-pro\public\css\modules\bdt-uikit.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingkit-pro/public/css/modules/ep-helper.css?ver=2.0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingkit-pro\public\css\modules\ep-helper.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingkit-pro/public/css/widgets.css?ver=2.0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingkit-pro\public\css\widgets.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingkit-pro/public/js/modules/bdt-uikit.js?ver=1788935820
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingkit-pro\public\js\modules\bdt-uikit.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingkit-pro/public/js/script.js?ver=1788935820
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingkit-pro\public\js\script.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/css/wdp_style.css?ver=2.7.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\css\wdp_style.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/js/libs/autosize.min.js?ver=1.14
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\js\libs\autosize.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/js/libs/jquery.jPages.min.js?ver=0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\js\libs\jquery.jPages.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/js/libs/jquery.placeholder.min.js?ver=2.0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\js\libs\jquery.placeholder.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/js/libs/jquery.textareaCounter.js?ver=2.0
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\js\libs\jquery.textareaCounter.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit/js/wdp_script.js?ver=2.7.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit\js\wdp_script.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/css/cui_style.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\css\cui_style.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/cui_script.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\cui_script.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/autosize.min.js?ver=1.14
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\autosize.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.jPages.min.js?ver=0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.jPages.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.placeholder.min.js?ver=2.0.7
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.placeholder.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/addons/comment-kit2/js/libs/jquery.textareaCounter.js?ver=2.0
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\addons\comment-kit2\js\libs\jquery.textareaCounter.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/exad-styles.min.css?ver=7.0.5
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\exad-styles.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/guest-book.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\guest-book.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/new-icon.min.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\new-icon.min.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/wdp-audio.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\wdp-audio.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/wdp-copy-widget.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\wdp-copy-widget.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/wdp-license-placeholder.css?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\wdp-license-placeholder.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/wdp-sticky.css?ver=3.3
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\wdp-sticky.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/css/wdp.css?ver=1785825342
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\css\wdp.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/exad-scripts.min.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\exad-scripts.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\guest-form.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/license.min.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\license.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/qr-code.js
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\qr-code.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-audio.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-audio.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-copy-widget.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-copy-widget.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-guest-name.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-guest-name.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-guestbook.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-guestbook.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-namatamu.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-namatamu.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-sticky.js?ver=3.3
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-sticky.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp-swiper.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/plugins/weddingpress/assets/js/wdp.min.js?ver=4.0.4
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\plugins\weddingpress\assets\js\wdp.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.5.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\themes\hello-elementor\assets\css\header-footer.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\themes\hello-elementor\assets\css\reset.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.5.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\themes\hello-elementor\assets\css\theme.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.5.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\themes\hello-elementor\assets\js\hello-frontend.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/bca-1-1024x334.png
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\bca-1-1024x334.png
+Content Type: image/png
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/bca-1-300x98.png
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\bca-1-300x98.png
+Content Type: image/png
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/bca-1-768x250.png
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\bca-1-768x250.png
+Content Type: image/png
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/bca-1.png
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\bca-1.png
+Content Type: image/png
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4713-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4713-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1-1025x1536.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1-1025x1536.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1-1367x2048.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1-1367x2048.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1-200x300.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1-684x1024.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1-684x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1-768x1150.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1-768x1150.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4729-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4729-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4734-scaled-1-150x150.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4734-scaled-1-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4734-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4734-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4734-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4734-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4736-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4736-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4736-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4736-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4774-scaled-1-150x150.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4774-scaled-1-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4774-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4774-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4774-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4774-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4785-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4785-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4816-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4816-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4816-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4816-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4817-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4817-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4825-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4825-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4825-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4825-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1-1022x1536.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1-1022x1536.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1-1362x2048.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1-1362x2048.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1-200x300.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1-681x1024.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1-681x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1-768x1154.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1-768x1154.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4839-scaled-1.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4839-scaled-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/07/IMG_4845-scaled-1-700x700.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\07\IMG_4845-scaled-1-700x700.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/08/cropped-LogoThumbnail-180x180.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\08\cropped-LogoThumbnail-180x180.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/08/cropped-LogoThumbnail-192x192.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\08\cropped-LogoThumbnail-192x192.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/2025/08/cropped-LogoThumbnail-32x32.jpg
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\2025\08\cropped-LogoThumbnail-32x32.jpg
+Content Type: image/jpeg
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/css/post-3611.css?ver=1790039857
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\css\post-3611.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/css/post-4161.css?ver=1790041162
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\css\post-4161.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/ibarrarealnova.css?ver=1753544227
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\ibarrarealnova.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/opensans.css?ver=1753525111
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\opensans.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/poltawskinowy.css?ver=1753544254
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\poltawskinowy.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/publicsans.css?ver=1753527538
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\publicsans.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1753522411
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\roboto.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1753523972
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-content\uploads\elementor\google-fonts\css\robotoslab.css
+Content Type: text/css
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/element.min.js?ver=15ba804677f72a8db97b
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\element.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/escape-html.min.js?ver=3f093e5cca67aa0f8b56
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\escape-html.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\hooks.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\i18n.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\vendor\react-dom.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\dist\vendor\react.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\jquery\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://bemybeyonce.id/wp-json/
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://bemybeyonce.id/wp-json/oembed/1.0/embed?url=https:%2F%2Fbemybeyonce.id%2Fcatalina%2F
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://bemybeyonce.id/wp-json/oembed/1.0/embed?url=https:%2F%2Fbemybeyonce.id%2Fcatalina%2F&format=xml
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://bemybeyonce.id/wp-json/weddingkit/v1/haitamu-discovery?invitation_url=https://bemybeyonce.id/catalina/
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-json\weddingkit\v1\haitamu-discovery
+Content Type: application/json
+
+Uri: https://bemybeyonce.id/wp-json/wp/v2/pages/4161
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\wp-json\wp\v2\pages\4161
+Content Type: application/json
+
+Uri: https://bemybeyonce.id/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\ajax\libs\xlsx\0.17.0\xlsx.full.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js
+File Name: C:\Downloaded Web Sites\bemybeyonce.id\qr-code-styling@1.5.0\lib\qr-code-styling.js
+Content Type: text/javascript
+

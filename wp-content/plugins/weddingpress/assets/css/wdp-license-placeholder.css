@@ -1,0 +1,97 @@
+.wdp-license-placeholder-card {
+    background: #faf7f2;
+    border: 1px dashed #C89556;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    max-width: 480px;
+    margin: 20px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    box-shadow: 0 4px 15px rgba(200, 149, 86, 0.05);
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wdp-placeholder-badge {
+    background: #C89556;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.wdp-placeholder-badge .dashicons {
+    font-size: 13px;
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.wdp-placeholder-logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.wdp-placeholder-text {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.wdp-placeholder-text strong {
+    color: #111;
+}
+
+.wdp-placeholder-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wdp-placeholder-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.wdp-btn-buy {
+    background: #8a1e2b !important;
+    color: #fff !important;
+    border: 1px solid #8a1e2b !important;
+}
+
+.wdp-btn-buy:hover {
+    background: #6e1520 !important;
+    border-color: #6e1520 !important;
+}
+
+.wdp-btn-activate {
+    background: transparent !important;
+    color: #C89556 !important;
+    border: 1px solid #C89556 !important;
+}
+
+.wdp-btn-activate:hover {
+    background: #C89556 !important;
+    color: #fff !important;
+}

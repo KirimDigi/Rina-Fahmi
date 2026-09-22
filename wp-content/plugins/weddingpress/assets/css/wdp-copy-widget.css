@@ -1,0 +1,56 @@
+/**
+ * WDP Copy Text Widget - Frontend Styles
+ * Widget: weddingpress-copy-text
+ * Version: 3.2.1.4
+ *
+ * Changelog v3.2.1.2:
+ * - Dipindahkan dari inline <style> per-instance ke file CSS terpisah
+ * - Dihapus hardcoded color #6EC1E4 — warna dikontrol oleh Elementor Style Panel
+ * - Menggunakan class .wdp-copy-btn sebagai selector tombol (konsisten dengan JS)
+ * - FIX: Netralkan <a href="tel:"> auto-generated oleh iOS/Android browser di .copy-content
+ */
+
+.spancontent {
+    padding-bottom: 20px;
+}
+
+/**
+ * .copy-content dan .head-title tidak lagi memiliki warna hardcoded.
+ * Warna sepenuhnya dikontrol oleh user via panel Style di Elementor Editor.
+ * Default color mengikuti warisan tema (inherit).
+ *
+ * FIX v3.2.1.3 — text-align: center dihapus dari sini.
+ * Alignment sekarang dikontrol sepenuhnya via Elementor selectors
+ * di control 'align' pada register_controls().
+ * Hardcoded center di sini sebelumnya override semua setting alignment user.
+ */
+.copy-content {
+    /* text-align dikontrol via Elementor alignment control */
+}
+
+.head-title {
+    /* text-align dikontrol via Elementor alignment control */
+}
+
+/**
+ * FIX PHONE-NUMBER AUTO-DETECTION (iOS Safari / Android Chrome):
+ *
+ * Browser mobile otomatis wrap angka panjang (no. rekening, kode voucher, dll)
+ * menjadi <a href="tel:..."> yang tampak sebagai link biru dapat diklik.
+ * <meta name="format-detection" content="telephone=no"> tidak selalu dihormati,
+ * terutama pada iOS Safari versi tertentu.
+ *
+ * Solusi CSS ini memaksa link auto-generated tersebut tampil identik dengan
+ * teks biasa (warna inherit, tidak underline, tidak bisa diklik), sehingga
+ * user tidak kebingungan, dan teks tetap terbaca normal.
+ *
+ * Catatan: sumber copy tetap dari data-clipboard-text (PHP attr), bukan dari DOM.
+ * CSS ini hanya memperbaiki tampilan visual — tidak memengaruhi fungsi copy.
+ */
+.copy-content a[href^="tel:"],
+.copy-content a[href^="tel:"] * {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: text !important;
+}
