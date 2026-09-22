@@ -1605,6 +1605,11 @@ document.getElementsByTagName('head')[0].appendChild(defaultScrollStyle);
 // URL Google Apps Script Web App (Dapat diisi dengan URL Web App hasil deploy Apps Script)
 var GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwS7mQ8WuYcgj1pH42rzZeWTHmU5VpEhWWxAy25wjhk6MDPB4YicORqyOSuP2CkGx2LGA/exec";
 
+// Bersihkan test data / dummy dari localStorage browser
+try {
+    localStorage.removeItem("wedding_rsvp_wishes");
+} catch(e) {}
+
 // Toggle Attendance selection
 function onAttendanceToggle(val) {
     var guestGroup = document.getElementById("rsvp-guest-count-group");
@@ -1636,50 +1641,38 @@ function toggleWishesList() {
     }
 }
 
-// Load Wishes from Google Apps Script or Local Storage
+// Load Wishes from Google Apps Script
 function loadWishes() {
     var loadingEl = document.getElementById("rsvp-loading-wishes");
     var listEl = document.getElementById("rsvp-wishes-list-items");
-    var countPill = document.getElementById("rsvp-count-pill");
     
     if (loadingEl) loadingEl.style.display = "block";
     if (listEl) listEl.innerHTML = "";
     
-    // Check if valid Apps Script URL is set
     var isConfigured = GOOGLE_APPS_SCRIPT_URL && GOOGLE_APPS_SCRIPT_URL.indexOf("PASTE_YOUR") === -1;
     
     if (isConfigured) {
-        fetch(GOOGLE_APPS_SCRIPT_URL + "?action=read")
+        fetch(GOOGLE_APPS_SCRIPT_URL + "?action=read&t=" + new Date().getTime())
             .then(function(res) { return res.json(); })
             .then(function(res) {
                 if (loadingEl) loadingEl.style.display = "none";
                 if (res && res.status === "success" && Array.isArray(res.data)) {
                     renderWishes(res.data);
                 } else {
-                    renderLocalWishes();
+                    renderWishes([]);
                 }
             })
             .catch(function(err) {
-                console.log("GAS fetch error, fallback to local:", err);
+                console.log("GAS fetch error:", err);
                 if (loadingEl) loadingEl.style.display = "none";
-                renderLocalWishes();
+                renderWishes([]);
             });
     } else {
-        // Fallback to local storage
         setTimeout(function() {
             if (loadingEl) loadingEl.style.display = "none";
-            renderLocalWishes();
+            renderWishes([]);
         }, 300);
     }
-}
-
-function renderLocalWishes() {
-    var localData = [];
-    try {
-        var raw = localStorage.getItem("wedding_rsvp_wishes");
-        if (raw) localData = JSON.parse(raw);
-    } catch(e) {}
-    renderWishes(localData);
 }
 
 function renderWishes(wishesArray) {
@@ -1687,19 +1680,15 @@ function renderWishes(wishesArray) {
     var countPill = document.getElementById("rsvp-count-pill");
     if (!listEl) return;
     
-    // Also include any new local items that might not have refreshed from spreadsheet yet
-    try {
-        var localItems = JSON.parse(localStorage.getItem("wedding_rsvp_wishes") || "[]");
-        var existingKeys = {};
-        wishesArray.forEach(function(w) {
-            existingKeys[w.nama_tamu + "___" + w.ucapan] = true;
-        });
-        localItems.forEach(function(lw) {
-            if (!existingKeys[lw.nama_tamu + "___" + lw.ucapan]) {
-                wishesArray.unshift(lw);
-            }
-        });
-    } catch(e) {}
+    // Filter out dummy/test ucapan seperti 'asasasa'
+    wishesArray = (wishesArray || []).filter(function(item) {
+        if (!item) return false;
+        var u = (item.ucapan || "").trim().toLowerCase();
+        var n = (item.nama_tamu || "").trim().toLowerCase();
+        if (u === "asasasa" || u === "asasa" || u === "test" || u === "testing" || u === "") return false;
+        if (n === "asasasa" || n === "asasa") return false;
+        return true;
+    });
     
     if (countPill) {
         countPill.textContent = wishesArray.length;
@@ -1719,7 +1708,25 @@ function renderWishes(wishesArray) {
         
         var safeNama = escapeHtml(item.nama_tamu || "Tamu");
         var safeUcapan = escapeHtml(item.ucapan || "");
-        var safeTime = escapeHtml(item.timestamp || "");
+        var rawTime = item.timestamp || "";
+        var safeTime = "";
+        if (rawTime) {
+            try {
+                var d = new Date(rawTime);
+                if (!isNaN(d.getTime())) {
+                    var day = String(d.getDate()).padStart(2, '0');
+                    var mon = String(d.getMonth() + 1).padStart(2, '0');
+                    var yr = d.getFullYear();
+                    var hr = String(d.getHours()).padStart(2, '0');
+                    var mn = String(d.getMinutes()).padStart(2, '0');
+                    safeTime = day + "/" + mon + "/" + yr + " " + hr + ":" + mn;
+                } else {
+                    safeTime = escapeHtml(rawTime);
+                }
+            } catch(e) {
+                safeTime = escapeHtml(rawTime);
+            }
+        }
         
         html += '<div class="rsvp-wish-card">' +
                     '<div class="rsvp-wish-header">' +
@@ -1748,7 +1755,6 @@ function handleRsvpSubmit(e) {
     var btn = document.getElementById("rsvp-submit-btn");
     var btnText = document.getElementById("rsvp-btn-text");
     var spinner = document.getElementById("rsvp-spinner");
-    var alertMsg = document.getElementById("rsvp-alert-msg");
     
     var nama = document.getElementById("rsvp-nama").value.trim();
     var ucapan = document.getElementById("rsvp-ucapan").value.trim();
@@ -1782,13 +1788,6 @@ function handleRsvpSubmit(e) {
         jumlah_tamu: guests
     };
     
-    // Save to localStorage immediately
-    try {
-        var existing = JSON.parse(localStorage.getItem("wedding_rsvp_wishes") || "[]");
-        existing.unshift(payload);
-        localStorage.setItem("wedding_rsvp_wishes", JSON.stringify(existing));
-    } catch(e) {}
-    
     var isConfigured = GOOGLE_APPS_SCRIPT_URL && GOOGLE_APPS_SCRIPT_URL.indexOf("PASTE_YOUR") === -1;
     
     var finishSubmit = function() {
@@ -1806,7 +1805,7 @@ function handleRsvpSubmit(e) {
             panel.style.display = "block";
             isWishesVisible = true;
             if (label) label.textContent = "Sembunyikan Ucapan";
-            loadWishes();
+            setTimeout(loadWishes, 1500);
         }
     };
     
