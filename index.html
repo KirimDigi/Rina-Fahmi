@@ -551,6 +551,142 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					max-width: none !important;
 					max-height: none !important;
 				}
+
+				/* ========================================================
+				   FIX FAST 3-SLIDE CAROUSEL (COUNTDOWN & THANK YOU)
+				   ======================================================== */
+				.elementor-element-5beff758 .elementor-image-carousel-wrapper,
+				.elementor-element-e350d6b .elementor-image-carousel-wrapper {
+					position: relative !important;
+					width: 100% !important;
+					overflow: hidden !important;
+				}
+
+				.elementor-element-5beff758 .swiper-wrapper,
+				.elementor-element-e350d6b .swiper-wrapper {
+					display: block !important;
+					position: relative !important;
+					width: 100% !important;
+					transform: none !important;
+					transition: none !important;
+				}
+
+				.elementor-element-5beff758 .swiper-slide,
+				.elementor-element-e350d6b .swiper-slide {
+					display: none !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					margin: 0 !important;
+					opacity: 0;
+					transition: none !important;
+				}
+
+				.elementor-element-5beff758 .swiper-slide.fast-slide-active,
+				.elementor-element-e350d6b .swiper-slide.fast-slide-active {
+					display: block !important;
+					opacity: 1 !important;
+				}
+
+				.elementor-element-5beff758 .swiper-slide-inner,
+				.elementor-element-e350d6b .swiper-slide-inner {
+					margin: 0 !important;
+					display: block !important;
+					width: 100% !important;
+				}
+
+				.elementor-element-5beff758 img.swiper-slide-image,
+				.elementor-element-e350d6b img.swiper-slide-image {
+					width: 100% !important;
+					height: auto !important;
+					display: block !important;
+					border-radius: 20px !important;
+					object-fit: cover !important;
+					box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+				}
+
+				/* ========================================================
+				   FIX OUR GALLERY (8 PHOTOS GRID & HOVER)
+				   ======================================================== */
+				.elementor-element-3ec69fa2 .elementor-gallery__container {
+					display: grid !important;
+					grid-template-columns: repeat(2, 1fr) !important;
+					gap: 12px !important;
+					width: 100% !important;
+					min-height: auto !important;
+					position: relative !important;
+					padding: 10px 0 25px 0 !important;
+					box-sizing: border-box !important;
+				}
+
+				@media (min-width: 768px) {
+					.elementor-element-3ec69fa2 .elementor-gallery__container {
+						grid-template-columns: repeat(4, 1fr) !important;
+						gap: 14px !important;
+					}
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item {
+					position: relative !important;
+					display: block !important;
+					width: 100% !important;
+					height: 220px !important;
+					top: auto !important;
+					left: auto !important;
+					right: auto !important;
+					bottom: auto !important;
+					border-radius: 16px !important;
+					overflow: hidden !important;
+					box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+					background-color: #1a1a1a !important;
+					cursor: pointer !important;
+					transform: none !important;
+					transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+				}
+
+				@media (max-width: 480px) {
+					.elementor-element-3ec69fa2 .elementor-gallery-item {
+						height: 185px !important;
+						border-radius: 12px !important;
+					}
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item:hover {
+					transform: translateY(-4px) scale(1.02) !important;
+					box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35) !important;
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item .e-gallery-image {
+					width: 100% !important;
+					height: 100% !important;
+					display: block !important;
+					background-size: cover !important;
+					background-position: center center !important;
+					background-repeat: no-repeat !important;
+					opacity: 1 !important;
+					filter: none !important;
+					transform: none !important;
+					transition: transform 0.5s ease !important;
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item:hover .e-gallery-image {
+					transform: scale(1.08) !important;
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item__overlay {
+					position: absolute !important;
+					top: 0 !important;
+					left: 0 !important;
+					right: 0 !important;
+					bottom: 0 !important;
+					background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 60%) !important;
+					opacity: 0 !important;
+					transition: opacity 0.3s ease !important;
+					pointer-events: none !important;
+				}
+
+				.elementor-element-3ec69fa2 .elementor-gallery-item:hover .elementor-gallery-item__overlay {
+					opacity: 1 !important;
+				}
 			</style>
 			<meta name="format-detection" content="telephone=no"><link rel="icon" href="kirimdigi.ico" sizes="32x32">
 <link rel="icon" href="kirimdigi.ico" sizes="192x192">
@@ -1995,5 +2131,75 @@ var sendkit_ajax = {"ajax_url":"https://bemybeyonce.id/wp-admin/admin-ajax.php",
 var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
 //# sourceURL=https://bemybeyonce.id/wp-includes/js/wp-emoji-loader.min.js
 </script>
-	</body>
+	
+<script id="custom-gallery-and-carousel-script">
+// Auto Rapid Cycle for 3-Slide Carousels (Countdown & Thankyou)
+(function() {
+    function setupFastCarousel(containerSelector) {
+        var container = document.querySelector(containerSelector);
+        if (!container) return;
+        var slides = container.querySelectorAll('.swiper-slide');
+        if (slides.length <= 1) return;
+        
+        var currentIndex = 0;
+        slides.forEach(function(s, idx) {
+            if (idx === 0) {
+                s.classList.add('fast-slide-active');
+            } else {
+                s.classList.remove('fast-slide-active');
+            }
+        });
+        
+        setInterval(function() {
+            slides[currentIndex].classList.remove('fast-slide-active');
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].classList.add('fast-slide-active');
+        }, 250);
+    }
+    
+    function initGalleryLightbox() {
+        var items = document.querySelectorAll('.elementor-element-3ec69fa2 .elementor-gallery-item');
+        if (!items || items.length === 0) return;
+        
+        var lightbox = document.getElementById('gallery-modal-lightbox');
+        if (!lightbox) {
+            lightbox = document.createElement('div');
+            lightbox.id = 'gallery-modal-lightbox';
+            lightbox.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);z-index:999999;display:none;align-items:center;justify-content:center;padding:20px;box-sizing:border-box;backdrop-filter:blur(6px);cursor:zoom-out;';
+            lightbox.innerHTML = '<span style="position:absolute;top:20px;right:25px;color:#ffffff;font-size:36px;font-weight:300;cursor:pointer;line-height:1;z-index:1000000;user-select:none;">&times;</span><img id="gallery-lightbox-img" src="" style="max-width:92%;max-height:88vh;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.6);object-fit:contain;transition:transform 0.3s ease;">';
+            document.body.appendChild(lightbox);
+            
+            lightbox.addEventListener('click', function() {
+                lightbox.style.display = 'none';
+            });
+        }
+        
+        var lbImg = document.getElementById('gallery-lightbox-img');
+        items.forEach(function(item) {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                var href = item.getAttribute('href');
+                if (href) {
+                    lbImg.src = href;
+                    lightbox.style.display = 'flex';
+                }
+            });
+        });
+    }
+
+    function initAll() {
+        setupFastCarousel('.elementor-element-5beff758');
+        setupFastCarousel('.elementor-element-e350d6b');
+        initGalleryLightbox();
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initAll);
+    } else {
+        initAll();
+    }
+})();
+</script>
+
+</body>
 </html>
