@@ -1569,28 +1569,38 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
     function smoothScrollSlow(element, duration) {
         if (!element) return;
-        duration = duration || 2000;
+        duration = duration || 1800;
+        
+        document.body.classList.add("scroll-enabled");
+        document.body.style.overflow = "auto";
+        document.documentElement.style.overflow = "auto";
+
         var startPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
         var targetPosition = element.getBoundingClientRect().top + startPosition;
         var distance = targetPosition - startPosition;
         var startTime = null;
 
-        function easeInOutQuad(t, b, c, d) {
+        function easeInOutCubic(t, b, c, d) {
             t /= d / 2;
-            if (t < 1) return c / 2 * t * t + b;
-            t--;
-            return -c / 2 * (t * (t - 2) - 1) + b;
+            if (t < 1) return c / 2 * t * t * t + b;
+            t -= 2;
+            return c / 2 * (t * t * t + 2) + b;
         }
 
         function step(currentTime) {
             if (!startTime) startTime = currentTime;
             var timeElapsed = currentTime - startTime;
-            var nextPos = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+            var nextPos = easeInOutCubic(timeElapsed, startPosition, distance, duration);
             window.scrollTo(0, nextPos);
+            if (document.documentElement) document.documentElement.scrollTop = nextPos;
+            if (document.body) document.body.scrollTop = nextPos;
+
             if (timeElapsed < duration) {
                 requestAnimationFrame(step);
             } else {
                 window.scrollTo(0, targetPosition);
+                if (document.documentElement) document.documentElement.scrollTop = targetPosition;
+                if (document.body) document.body.scrollTop = targetPosition;
             }
         }
 
@@ -1599,27 +1609,34 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
     function initTombolBuka() {
         var tombolBuka = document.getElementById("tombol-buka");
-        if (tombolBuka) {
-            var linkBuka = tombolBuka.querySelector('a');
-            if (linkBuka) {
-                linkBuka.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                }, true);
+        if (!tombolBuka) return;
+
+        function triggerOpen(e) {
+            if (e && typeof e.preventDefault === 'function') {
+                e.preventDefault();
             }
-            tombolBuka.onclick = function(e) {
-                if (e) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                }
-                unlockSection();
-                playAudio();
-                hideButton();
-                var target = document.getElementById("opening");
-                if (target) {
-                    smoothScrollSlow(target, 2000);
-                }
-            };
+            
+            unlockSection();
+            document.body.classList.add("scroll-enabled");
+            document.body.style.overflow = "auto";
+            document.documentElement.style.overflow = "auto";
+            
+            playAudio();
+            hideButton();
+            
+            var target = document.getElementById("opening");
+            if (target) {
+                setTimeout(function() {
+                    smoothScrollSlow(target, 1800);
+                }, 50);
+            }
+        }
+
+        tombolBuka.onclick = triggerOpen;
+        
+        var linkBuka = tombolBuka.querySelector('a');
+        if (linkBuka) {
+            linkBuka.onclick = triggerOpen;
         }
     }
 
