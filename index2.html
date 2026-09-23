@@ -1567,6 +1567,36 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     window.addEventListener('pageshow', resetToCover);
     window.addEventListener('beforeunload', resetToCover);
 
+    function smoothScrollSlow(element, duration) {
+        if (!element) return;
+        duration = duration || 2000;
+        var startPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var targetPosition = element.getBoundingClientRect().top + startPosition;
+        var distance = targetPosition - startPosition;
+        var startTime = null;
+
+        function easeInOutQuad(t, b, c, d) {
+            t /= d / 2;
+            if (t < 1) return c / 2 * t * t + b;
+            t--;
+            return -c / 2 * (t * (t - 2) - 1) + b;
+        }
+
+        function step(currentTime) {
+            if (!startTime) startTime = currentTime;
+            var timeElapsed = currentTime - startTime;
+            var nextPos = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+            window.scrollTo(0, nextPos);
+            if (timeElapsed < duration) {
+                requestAnimationFrame(step);
+            } else {
+                window.scrollTo(0, targetPosition);
+            }
+        }
+
+        requestAnimationFrame(step);
+    }
+
     function initTombolBuka() {
         var tombolBuka = document.getElementById("tombol-buka");
         if (tombolBuka) {
@@ -1574,16 +1604,20 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             if (linkBuka) {
                 linkBuka.addEventListener('click', function(e) {
                     e.preventDefault();
-                });
+                    e.stopImmediatePropagation();
+                }, true);
             }
             tombolBuka.onclick = function(e) {
-                if (e) e.preventDefault();
+                if (e) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                }
                 unlockSection();
                 playAudio();
                 hideButton();
                 var target = document.getElementById("opening");
                 if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
+                    smoothScrollSlow(target, 2000);
                 }
             };
         }
